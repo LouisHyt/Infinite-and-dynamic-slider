@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 @layer general-styling{
     :is(*, *::before, *::after){
         padding: 0;
@@ -7,6 +10,7 @@
 
     html{
         font-family: Roboto;
+        color: white;
         font-weight: 500;
         color-scheme: dark light;
     }
@@ -15,6 +19,7 @@
         height: 100vh;
         display: grid;
         place-items: center;
+        background-color: #0e0e0e;
     }
 }
 
